@@ -1,12 +1,12 @@
 import "./App.css";
-import Header from "./components/Header/Header";
-import Container from "./components/Container/Container";
-import Footer from "./components/Footer/Footer";
+import {Header,Container,Footer,Hero} from './components/index'
 const App = () => {
   return (
     <>
-      <Header />
-      <Container />
+      <Header/>
+      <Container>
+        <Hero/>
+      </Container>
       <Footer />
     </>
   );
