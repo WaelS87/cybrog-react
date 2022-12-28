@@ -1,12 +1,12 @@
 import './Header.css'
 import logo from '../../assets/images/logo.png'
-import NavItem from '../NavItem/NavItem'
-import { NavItemDropDown } from '../NavItem/NavItem'
+import NavItem from '../../components/NavItem/NavItem'
+import { NavItemDropDown } from '../../components/NavItem/NavItem'
 
 const Header = () => {
   return (
     <div>
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg  navbar-dark cyborg-navbar">
     <div className="container-fluid">
       <a className="navbar-brand" href="#">
       <img src={logo} alt='Cybrog Logo'/>
